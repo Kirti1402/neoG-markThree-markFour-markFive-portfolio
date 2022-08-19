@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 :root {
-    --primary-color: #76BA99;
+    /* --primary-color: #76BA99; */
+    --primary-color: #064e3b; 
     --header-heading: #6b7280;
-    --section-light: #ADCF9F;
-    --section-dark: #CED89E;
+    --section-light:#ecfdf5;
+    --section-dark: #dcfce7;
+    /* --span-text-color:#fed7aa; */
+    --span-text-color:#be185d;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     font-family: 'Roboto Slab', sans-serif;
+    margin: 0px 5rem;
 }
 
 /* containers */
@@ -24,7 +28,9 @@ body {
 
 .container-center {
     max-width: 800px;
+    /* max-height: 500px; */
     /* width: 500px; width overrides max-width property*/
+    width: 100%;
     margin: auto;
     /* Margin: top left bottpm right */
 }
@@ -69,13 +75,16 @@ hr {
     border-top-left-radius: 1rem;
 }
 
-.navBrand {
+.nav-brand {
     font-weight: bolder;
+    color: white;
 }
 
-.navigation .link {
-    color: black;
+.navigation .nav-pills {
     text-align: right;
+}
+.navigation .link{
+    color: white;
 }
 
 .navigation .active {
@@ -87,15 +96,15 @@ hr {
     padding: 2rem;
 }
 
-.heroimage {
-    width: 300px;
+.hero-image {
+    width: 350px;
     height: 300px;
     display: block;
     margin: auto;
 }
 
-.heroheading {
-    padding-top: 1rem;
+.hero-heading {
+    padding-top: 1px;
     color: var(--header-heading);
     /* max-width: 350px;
     margin: auto; */
@@ -103,10 +112,17 @@ hr {
 
 }
 
-.headinginside {
-    color: var(--primary-color);
+.heading-inside {
+    color: var(--span-text-color);
+    /* text-decoration: underline; */
 }
 /* sections */
+.section{
+    min-height: 200px;
+}
+.section h2{
+    text-align: center;
+}
 .lightsection {
     background-color: var(--section-light);
     margin-bottom: 1rem;
