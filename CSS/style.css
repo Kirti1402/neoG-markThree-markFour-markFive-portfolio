@@ -192,5 +192,8 @@ ul { list-style: list-style-type list-style-position list-style-image }
 /* Example for style */
 ul { list-style: square outside none; }
 
+.sub-heading{
+    text-align: center;
+}
 
 
