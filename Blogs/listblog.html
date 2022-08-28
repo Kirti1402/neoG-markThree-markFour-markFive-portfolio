@@ -73,7 +73,7 @@
       <p>
         <u>Description Lists:</u><br />
         Description lists use one set of dl tags wrapped around one or more
-        groups of dt (name) and dd (value) tags. You must pair at least one dt
+        groups of dt name and dd value tags. You must pair at least one dt
         with at least one dd, and the dd should always come first in the source
         order, as shown in example.
       </p>
@@ -104,6 +104,7 @@
               values for list-style-type include:
             </p>
             <ul>
+              <li>by default</li>
               <li style="list-style: disc">disc</li>
               <li style="list-style: circle">circle</li>
               <li style="list-style: square">square</li>
@@ -121,6 +122,7 @@
               <li style="list-style: lower-alpha">lower-alpha</li>
               <li style="list-style: upper-alpha">upper-alpha</li>
               <li style="list-style: none">none</li>
+              <li style="list-style: '→ '">Custom</li>              
             </ul>
           </section>
         </li>
@@ -139,6 +141,15 @@
             <ul>
               <li style="list-style: disc outside;">List Style Position Outside</li>
               <li style="list-style: disc inside;">List Style Position Inside</li>
+            </ul>
+          </section>
+        </li>
+        <li>
+          <section>
+            <h4></h4>Values for list-style-image</h4>
+            <p>The list-style-image property determines whether the list marker is set with an image, and accepts a value of none or a URL that points to the image.</p>
+            <ul>
+              <li style="list-style: disc outside url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);">List-style-image</li>
             </ul>
           </section>
         </li>
