@@ -2,12 +2,13 @@
 
 :root {
     /* --primary-color: #76BA99; */
-    --primary-color: #064e3b; 
+    --primary-color: #164e63; 
     --header-heading: #6b7280;
-    --section-light:#ecfdf5;
-    --section-dark: #dcfce7;
+    --section-dark:#f1f5f9;
+    --section-light: #f8fafc;
     /* --span-text-color:#fed7aa; */
-    --span-text-color:#be185d;
+    --span-text-color:
+    #60a5fa;
 }
 
 /* * {
@@ -137,14 +138,14 @@ hr {
 
 .lightsection {
     background-color: var(--section-light);
-    border: 1px solid var(--primary-color);
-    border-radius: 50px;
+    /* border: 1px solid var(--primary-color); */
+    border-radius: 10px;
 }
 
 .darksection {
     background-color: var(--section-dark);
-    border: 1px solid var(--primary-color);
-    border-radius: 50px;
+    /* border: 1px solid var(--primary-color); */
+    border-radius: 10px;
 }
 
 .footer{
