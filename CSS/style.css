@@ -163,6 +163,13 @@ hr {
     padding-inline-start: 0px;
 }
 
+.list-images{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+
+}
 /* 
 .wrapper{
     background-color: red;
