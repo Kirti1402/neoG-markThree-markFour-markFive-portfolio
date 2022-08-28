@@ -186,3 +186,11 @@ hr {
     padding:10px;
     border: 5px solid black;
 } */
+
+/* Syntax for List Property */
+ul { list-style: list-style-type list-style-position list-style-image }
+/* Example for style */
+ul { list-style: square outside none; }
+
+
+
