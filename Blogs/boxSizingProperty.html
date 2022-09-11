@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Sizing Property</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">IAmKirtiSingh.</div>
+      <ul class="non-bullets list-inline nav-pills">
+        <li><a href="/" class="link">Home</a></li>
+        <li>
+          <a href="/projects.html" target="_blank" class="link">Projects</a>
+        </li>
+        <li><a href="/blogs.html" class="link">Blogs</a></li>
+        <li><a href="#footer" class="link">Contact Me</a></li>
+      </ul>
+    </nav>
+    <header><h1 class="hero-heading">Box Sizing: content-box & box-border difference</h1></header>
+    <article class="content-article">
+      <h2>Box-Sizing: content-box</h2>
+      <p>
+        Content box is default value of box Sizing. The dimension of element
+        only includes 'height' and 'width' and does not include 'border' and
+        'padding' given to element. Padding and Border take space outside the
+        element
+      </p>
+      <p>Example: content-box without padding</p>
+      <pre>
+        .content-box{
+            margin-bottom: 10px;
+            height: 300px;
+            width: 50%;
+            border: 2px solid black;
+        }
+        .inside-div-without-padding{
+            box-sizing: content-box;
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            border: 2px solid black;
+        }
+    </pre
+      >
+      <div class="content-box">
+        Parent Div
+        <div class="inside-div-without-padding">Child Div</div>
+      </div>
+      <p>Example: content-box with padding</p>
+      <pre>
+        .content-box{
+            margin-bottom: 10px;
+            height: 300px;
+            width: 50%;
+            border: 2px solid black;
+        }
+        .inside-div{
+            box-sizing: content-box;
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </pre
+      >
+      <div class="content-box">
+        Parent Div
+        <div class="inside-div">Child Div</div>
+      </div>
+    </article>
+    <article class="boxboder-article">
+      <h2>Box-Sizing: box-border</h2>
+      <p>
+        In border-box tells, padding in the values you specify for an element's
+        width and height. If you set an element's width to 100 pixels, that 100
+        pixels will include any border or padding you added.
+      </p>
+      <p>Example: box-border without padding</p>
+      <pre>
+        .box-border{
+            height: 300px;
+            width: 50%;
+            border: 2px solid black;
+        }
+        
+        .bb-without-padding{
+            box-sizing: border-box;
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            border: 2px solid black;
+        }
+    </pre
+      >
+      <div class="box-border">
+        <div class="bb-without-padding">1</div>
+      </div>
+      <p>Example: box-border with padding</p>
+      <pre>
+        .box-border{
+            height: 300px;
+            width: 50%;
+            border: 2px solid black;
+        }
+        .bb-with-padding{
+            box-sizing: border-box;
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+        }
+    </pre
+      >
+      <div class="box-border">
+        <div class="bb-with-padding">1</div>
+      </div>
+    </article>
+    <footer class="footer" id="footer">
+      <div class="footer-header">You can find me on :</div>
+      <ul class="social-links non-bullets list-inline">
+        <li>
+          <a
+            href="https://www.instagram.com/steppingbeyond_/"
+            target="_blank"
+            class="link fa fa-instagram"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/kirti2714/"
+            target="_blank"
+            class="link fa fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/KirtiSi70062355"
+            target="_blank"
+            class="link fa fa-twitter"
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

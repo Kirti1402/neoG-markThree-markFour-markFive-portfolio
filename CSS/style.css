@@ -11,9 +11,7 @@
     #60a5fa;
 }
 
-/* * {
-    box-sizing: border-box;
-} */
+
 
 body {
     font-family: 'Roboto Slab', sans-serif;
@@ -181,10 +179,72 @@ hr {
     text-align: center;
 }
 
-.mysore-blog-img{
-    width: 300px;
-    height: 250px;
-    border: 2px solid var(--primary-color);
+.mysore-blog-img, .box-image{
+    
+    border: 2px solid black;
+}
+
+.content-box{
+    
+    margin:auto;
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.inside-div-without-padding{
+    box-sizing: content-box;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid black;
+}
+.inside-div{
+    box-sizing: content-box;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.box-border{
+    margin:auto;
+    height: 300px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.bb-without-padding{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.box-border{
+    height: 300px;
+    width: 50%;
+    border: 2px solid black;
+}
+.bb-with-padding{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.content-article{
+    margin: 5px;
+text-align: center;
+}
+.boxboder-article{
+    text-align: center;
+    margin: 5px;
 }
 
 
