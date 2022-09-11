@@ -7,6 +7,6 @@ Create my personal portfolio using which contains my works and blogs.
 * JavaScript
 * React
 
-## Live Link
+## Live Project
 [KirtiSingh](https://kirtisingh.netlify.app/)
 
