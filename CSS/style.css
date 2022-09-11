@@ -2,13 +2,13 @@
 
 :root {
     /* --primary-color: #76BA99; */
-    --primary-color: #164e63; 
+    --primary-color: #164e63;
     --header-heading: #6b7280;
-    --section-dark:#f1f5f9;
+    --section-dark: #f1f5f9;
     --section-light: #f8fafc;
     /* --span-text-color:#fed7aa; */
     --span-text-color:
-    #60a5fa;
+        #60a5fa;
 }
 
 
@@ -50,6 +50,7 @@ body {
     color: #fff;
     border-radius: 2rem;
 }
+
 .secondary-link {
     /* max-width: 140px;
     color: var(--primary-color);
@@ -64,6 +65,7 @@ body {
 hr {
     margin: 1em 0em;
 }
+
 /* list */
 .non-bullets {
     list-style: none;
@@ -90,7 +92,8 @@ hr {
 .navigation .nav-pills {
     text-align: right;
 }
-.navigation .link{
+
+.navigation .link {
     color: white;
 }
 
@@ -115,11 +118,14 @@ hr {
     color: var(--header-heading);
     text-align: center;
 }
+
 .heading-inside {
     color: var(--span-text-color);
+    font-weight: 600;
 }
+
 /* sections */
-.section{
+.section {
     min-height: 200px;
     padding: 2rem;
     margin: 2rem 0;
@@ -138,7 +144,7 @@ hr {
     border-radius: 10px;
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -146,15 +152,15 @@ hr {
     border-top-right-radius: 50px;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.list-images{
+.list-images {
     width: 500px;
     height: 200px;
     display: block;
@@ -162,44 +168,47 @@ hr {
 
 }
 
-.sub-heading{
+.sub-heading {
     text-align: center;
 }
 
-.message{
+.message {
     margin: 1rem auto;
 
 }
 
-.heading-mysore-blog{
+.heading-mysore-blog {
     text-align: center;
 }
 
-.mysoreblog-article{
+.mysoreblog-article {
     text-align: center;
 }
 
-.mysore-blog-img, .box-image{
-    
+.mysore-blog-img{
+    width: 350px;
+    height: 350px;
     border: 2px solid black;
 }
 
-.content-box{
-    
-    margin:auto;
+
+.content-box {
+
+    margin: auto;
     height: 300px;
     width: 600px;
     border: 2px solid black;
 }
 
-.inside-div-without-padding{
+.inside-div-without-padding {
     box-sizing: content-box;
     width: 100%;
     background-color: orange;
     text-align: center;
     border: 2px solid black;
 }
-.inside-div{
+
+.inside-div {
     box-sizing: content-box;
     width: 100%;
     background-color: orange;
@@ -209,14 +218,14 @@ hr {
 }
 
 
-.box-border{
-    margin:auto;
+.box-border {
+    margin: auto;
     height: 300px;
     width: 50%;
     border: 2px solid black;
 }
 
-.bb-without-padding{
+.bb-without-padding {
     box-sizing: border-box;
     width: 100%;
     background-color: orange;
@@ -224,12 +233,13 @@ hr {
     border: 2px solid black;
 }
 
-.box-border{
+.box-border {
     height: 300px;
     width: 50%;
     border: 2px solid black;
 }
-.bb-with-padding{
+
+.bb-with-padding {
     box-sizing: border-box;
     width: 100%;
     background-color: orange;
@@ -238,13 +248,16 @@ hr {
     padding: 10px;
 }
 
-.content-article{
+.content-article {
     margin: 5px;
-text-align: center;
+    text-align: center;
 }
-.boxboder-article{
+
+.boxboder-article {
     text-align: center;
     margin: 5px;
 }
 
-
+.skills {
+    padding-bottom: 0.5rem;
+}
