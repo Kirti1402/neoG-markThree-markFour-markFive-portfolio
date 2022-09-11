@@ -218,7 +218,7 @@ hr {
 }
 
 
-.box-border {
+.border-box {
     margin: auto;
     height: 300px;
     width: 50%;
@@ -230,12 +230,6 @@ hr {
     width: 100%;
     background-color: orange;
     text-align: center;
-    border: 2px solid black;
-}
-
-.box-border {
-    height: 300px;
-    width: 50%;
     border: 2px solid black;
 }
 
