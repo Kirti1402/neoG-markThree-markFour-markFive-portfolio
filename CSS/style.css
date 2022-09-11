@@ -115,15 +115,10 @@ hr {
 .hero-heading {
     padding-top: 1px;
     color: var(--header-heading);
-    /* max-width: 350px;
-    margin: auto; */
     text-align: center;
-
 }
-
 .heading-inside {
     color: var(--span-text-color);
-    /* text-decoration: underline; */
 }
 /* sections */
 .section{
@@ -137,13 +132,11 @@ hr {
 
 .lightsection {
     background-color: var(--section-light);
-    /* border: 1px solid var(--primary-color); */
     border-radius: 10px;
 }
 
 .darksection {
     background-color: var(--section-dark);
-    /* border: 1px solid var(--primary-color); */
     border-radius: 10px;
 }
 
@@ -170,27 +163,6 @@ hr {
     margin: auto;
 
 }
-/* 
-.wrapper{
-    background-color: red;
-    width: 300px;
-    height: 300px;
-
-}
-.box{
-    box-sizing: border-box;
-    background-color: #fcd34d;
-    width:inherit;
-    height: inherit;
-    margin: 10px;
-    padding:10px;
-    border: 5px solid black;
-} */
-
-/* Syntax for List Property */
-ul { list-style: list-style-type list-style-position list-style-image }
-/* Example for style */
-ul { list-style: square outside none; }
 
 .sub-heading{
     text-align: center;
@@ -199,6 +171,20 @@ ul { list-style: square outside none; }
 .message{
     margin: 1rem auto;
 
+}
+
+.heading-mysore-blog{
+    text-align: center;
+}
+
+.mysoreblog-article{
+    text-align: center;
+}
+
+.mysore-blog-img{
+    width: 300px;
+    height: 250px;
+    border: 2px solid var(--primary-color);
 }
 
 
